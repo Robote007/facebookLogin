@@ -1,3 +1,20 @@
+@media screen and (max-width: 500px) {
+    p.footer-content{
+        width: 330px;
+    }
+
+    .form-container {
+        margin: -22%;
+        margin-top: 5%;
+    }
+
+    .title-logo {
+        padding-top: 20%;
+    }
+
+}
+
+
 @media screen and (min-width: 500px) {
     .container {
         display: flex;
@@ -6,6 +23,10 @@
         align-items: center;
         /* padding-bottom: 15rem; */
         margin: 0 15% !important;
+    }
+    main.container{
+        margin: -11% -11% -8% 17% !important;
+
     }
 
     .title-container{
@@ -72,6 +93,10 @@
 
     }
 
+    main.container {
+        margin: -11% 12% -1% 12% !important
+    }
+
     .form-container {
         margin-right: 0px !important;
         margin-left: 0px !important;
@@ -96,7 +121,7 @@
 
 @media screen and (min-width: 1075px) {
     .title-container {
-        width: 58rem;
+        width: 42rem;
         padding-bottom: 12rem;
         padding-right: 15rem;
         margin-right: 0;
